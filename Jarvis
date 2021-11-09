@@ -52,6 +52,8 @@ def run_jarvis():
         talk('I am in a relationship with wifi')
     elif 'how are you' in command:
         talk('I am fine how about you')
+        elif 'good morning' in command:
+        talk('good morning mate time is ' + time + ' now set your timetable and try to do it atleast 90 percent have a good day')
     elif 'joke' in command:
         talk(pyjokes.get_joke())
     else:
