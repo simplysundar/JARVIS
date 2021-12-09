@@ -49,10 +49,14 @@ def run_jarvis():
     elif 'date' in command:
         talk('sorry, I have a headache')
     elif 'are you single' in command:
-        talk('I am in a relationship with wifi')
+        talk('I am in a relationship with wifi be single forever')
     elif 'how are you' in command:
         talk('I am fine how about you')
-        elif 'good morning' in command:
+    elif 'how are you' in command:
+        talk('good ,thanks for asking, how about you')
+    elif 'you suck' in command:
+        talk('why the hell your always mad at me')
+    elif 'good morning' in command:
         talk('good morning mate time is ' + time + ' now set your timetable and try to do it atleast 90 percent have a good day')
     elif 'joke' in command:
         talk(pyjokes.get_joke())
